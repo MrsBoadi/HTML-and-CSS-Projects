@@ -23,7 +23,7 @@ nav {
     dispaly: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+hi, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -134,8 +134,6 @@ container-fluid {
     max-height: 340px;
     margin: 0% auto;
     content: " ";
-    /* top: 0;
-    left: 0; */
     /* position: absolute; */ /* to the top edge of the screen */
     width: 100%;
     position: fixed;
@@ -161,9 +159,10 @@ container-fluid {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba (0, 0, 0, 0.9);
+    text-shadow: 2px 4px 5px rgba (0, 0, 0, .9);
     font-variant: small-caps;
     color: #fff;
+    letter-spacing: 5pt;
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
@@ -199,7 +198,6 @@ container-fluid {
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65, 0, .3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -213,7 +211,7 @@ container-fluid {
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
-    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 1), 1px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .reservation h2 {
@@ -328,7 +326,6 @@ container-fluid {
     color: #000;
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
-}
 /*----------------------------------------------------
        FOOTER STYLES
 ----------------------------------------------------*/
@@ -339,9 +336,11 @@ container-fluid {
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
+
 /*-----------------------------------------------------
        @MEDIA QUERIES
 -----------------------------------------------------*/
+
 @media all and (max-width: 640px) and (min-width: 381px) {
     .head-main {
         font-size: 28px;
@@ -353,19 +352,9 @@ container-fluid {
         font-size: 24px;
     }
 }
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-    
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
-    }
-}
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
     }
 }
