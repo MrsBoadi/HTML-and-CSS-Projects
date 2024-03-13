@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+ol li {
+    font: bold;
+    color: purple
+}
+
+h1 {
+    font-family: fantasy;
+    color: #e711c0;
+}
+
+h2 {
+    font-family: 'Lucida Sans';
+    color: #e711c0;
+}
+
+h3 {
+    font-family: cursive;
+    color: #e711c0;
+}
+
+p {
+    font: cursive;
+    color: blue;
+}
+
+form input {
+    width: 40%;
+    border: 1.5px solid #eca0a0;
+    margin: 1% auto;
+    border-radius: 5px;
+    background-color: #e711c0;
+    color: white;
+}
+
+form label {
+    font-size: large;
+    color: blue;
+}
