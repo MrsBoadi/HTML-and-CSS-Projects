@@ -1,0 +1,14 @@
+•	ACADEMY CINEMAS
+
+Summary
+This is to showcase our welcoming Cinemas located in Downtown Portland Oregon.  The site contains the movies that 
+will be playing and the schedules for each of them.  You can submit your email to earn rewards for each visit to the Cinema.
+
+•	Method used in creating the website.
+I mainly used the HTML to construct the webpage and Boostrap 4 to style the site. HTML was used to build the 
+structure of the site, linking using hypertext reference for my images and to link each section to my navbar. 
+The navbar on the website contain the drop-down menu containing the About that lead you to the section where 
+the introduction of the website is located, showtime that will direct you to the shows and the deals for our 
+rewards program. In the navbar also has a search button. As I styles the website in input each object accordingly 
+so it can merge into each bootstrap that I utilized for each object.  After I input all elements and necessary object, 
+I debugs my coding than run it before commit and push my code to my GitHub account. 
