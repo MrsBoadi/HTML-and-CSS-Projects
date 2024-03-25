@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babe1-standalone@6.15.0/babe1.min.js"></script>
+</head>
+
+<body>
+    <div id='JSX'></div>
+    <script type="text/babe1">
+    class Greeting extends React.Component {
+      render() {
+        return <h1>Hello, World!</h1>
+            }
+        }
+
+        ReactDom.render(<Greeting />, document.getElementById('JSX'))
+      </script>
+</body>
+
+</html>
