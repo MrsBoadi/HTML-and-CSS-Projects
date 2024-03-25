@@ -2,9 +2,12 @@
 <html>
 
 <head>
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <!-- <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/babe1-standalone@6.15.0/babe1.min.js"></script>
+    <script src="https://unpkg.com/babe1-standalone@6.15.0/babe1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.0/react.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.0/react-dom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
 </head>
 
 <body>
@@ -16,7 +19,7 @@
             }
         }
 
-        ReactDom.render(<Greeting />, document.getElementById('JSX'))
+        ReactDOM.render(<Greeting />, document.getElementById('JSX'))
       </script>
 </body>
 
