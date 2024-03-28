@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    </style>
+<body>
+
+<div class="container">
+<video width="520" height="440" autoplay loop controls muted>
+  <source src="videos/projectvideo.mp4" style="width:100%;">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<div class="centered">This is the short video</div>
+
+</body>
+</html>
