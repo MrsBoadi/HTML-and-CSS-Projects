@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+ <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+ </head>
+ <body>
+    <h1>My first contact form</h1>
+    <form onsubmit="return false">
+    </form>
+    <input type="text" placeholder="Enter your last name" id="lastName" /><br>
+    <input type="text" placeholder="Enter your first name" id="firstName" /><br>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female<br>
+    <input type="email" placeholder="Enter your email" id="email" /><br>
+    <input type="text" placeholder="Address" id="address" /><br>
+    <input type="text" placeholder="House number" id="houseNumber" /><br>
+    <option disabled selected value> -- select a country -- </option><br>
+    <input type="password" placeholder="Enter password" id="password" />   
+    <input type="password" placeholder="Enter password (check)" id="passwordCheck" /><br>
+    <input type="checkbox" id="newsletter" />Send me monthly newsletter<br>
+    <span>What is your question?</span>
+<br>
+<textarea id="question" rows="4"></textarea>
+<br><br>
+<button onclick="sendContact();">Send contact</button>
+<br><br>
+
+    <br>
+<br><br>
+ </body>
+</html>

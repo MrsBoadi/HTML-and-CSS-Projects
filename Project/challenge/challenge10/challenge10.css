@@ -1,0 +1,20 @@
+body {
+    opacity: 1;
+    transition: 1s opacity;
+  }
+  
+  body.fade-out {
+    opacity: 0;
+    transition: none;
+  }
+  container {
+    position: relative;
+    text-align: center;
+    color: rgb(29, 5, 5);
+  }
+  centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
